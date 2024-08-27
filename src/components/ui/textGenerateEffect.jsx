@@ -41,7 +41,7 @@ const TextGenerateEffect = ({
   };
 
   return (
-    (<div className={cn("font-bold", className)}>
+    (<div className={cn("font-black", className)}>
       <div className="my-4">
         <div
           className=" dark:text-white text-black leading-snug tracking-wide">
@@ -53,3 +53,5 @@ const TextGenerateEffect = ({
 };
 
 export default TextGenerateEffect;
+
+  
