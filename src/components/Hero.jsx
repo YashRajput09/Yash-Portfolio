@@ -7,7 +7,7 @@ import { TbArrowBadgeRight } from "react-icons/tb";
 function Hero() {
   return (
     <>
-      <div className="pb-20 pt-32">
+      <div className="pb-20 pt-20">
         <div className="">
           <Spotlight
             className="-top-40 -left-10 h-screen md:top-20 md:-left-32"
