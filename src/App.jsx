@@ -1,5 +1,6 @@
 import React from 'react';
-import Hero from './components/Hero'
+import Hero from './components/Hero';
+import Grid from './components/grid';
 import { FloatingNav } from './components/ui/naveBar';
 import { FaFile, FaHome } from 'react-icons/fa';
 import { BsPersonFillCheck } from "react-icons/bs";
@@ -15,7 +16,8 @@ function App() {
             {name: 'Project', link: '/', icon: < FaFile /> },
             {name: 'Contect', link: '/', icon: < BsPersonFillCheck /> }
           ]}/>
-          <Hero />
+          < Hero />
+          < Grid />
         </div>
       </div>
     </>
